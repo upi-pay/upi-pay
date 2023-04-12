@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="pills.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+    <div class="video-background">
+        <video autoplay muted loop poster="video.mp4" id="bgvid">
+            <source src="video.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay"></div>
+        <div class="video-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <div class="tab-wrapper">
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home"
+                                        role="tab" aria-controls="pills-home" aria-selected="true">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile"
+                                        role="tab" aria-controls="pills-profile"
+                                        aria-selected="false">CLOUD_COMPUTING</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact"
+                                        role="tab" aria-controls="pills-contact"
+                                        aria-selected="false">WEB_TECHNOLOGY</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                    aria-labelledby="pills-home-tab">
+                                    <h1>TANAYA NAIK</h1>
+                                    <p><b><i>Vision of the Institution:</b></i>
+                                        "To be globally acclaimed Institute in Technical Education and Research for
+                                        holistic Socio-economic development".<br><br>
+                                        <b><i>Mission of the Institution:</b></i>
+                                        <br> • To ensure that 100% students are employable and employed in Industry,
+                                        Higher Studies, become Entrepreneurs,
+                                        Civil / Defense Services / Govt. Jobs and other areas like Sports and Theatre.
+                                        <br> • To strengthen Academic Practices in terms of Curriculum, Pedagogy,
+                                        Assessment and Faculty Competence.
+                                        <br> • Promote Research Culture among Students and Faculty through Projects and
+                                        Consultancy.
+                                        <br> • To make students Socially Responsible Citizen.
+                                        <br>
+                                        <b>This is the TY-CS-D Syllabus.</b>
+                                    </p>
+                                </div>
+                                <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                    aria-labelledby="pills-profile-tab">
+                                    <h1>CLOUD_COMPUTING</h1>
+                                    <p>Unit-I Introduction to Cloud Computing
+                                        <br>
+                                        [ CO1 PO1, PO2, PO5 – CO Strength - 2,1,1]
+                                        <br>
+                                        Recent trends in computing, Cluster computing, Distributed computing ,Evolution
+                                        of cloud
+                                        computing, Cloud versus traditional architecture, Cloud Computing Architecture,
+                                        Google Cloud
+                                        architecture, Infrastructure as a Service (IaaS), Platform as a Service (PaaS),
+                                        Software as a Service
+                                        (SaaS), Public cloud, Private cloud, Hybrid cloud, Community cloud [4 Hrs]
+                                    </p>
+                                    <p>Unit-II Virtualization
+                                        <br>
+                                        [ CO2 PO1, PO2, PO3, PO4, PO5- CO Strength -2,2,1,1,1]
+                                        <br>
+                                        Introduction to virtualization, Different approaches to virtualization,
+                                        Hypervisors, Machine Image,
+                                        Virtual Machine (VM), Compute options in the cloud, Exploring IaaS with Compute
+                                        Engine,
+                                        Configuring elastic apps with auto scaling, Basics of virtualization and
+                                        implementation challenges.
+                                        System virtualization technologies-architectures and internals. KVM, Xen,
+                                        VMware.
+                                        Memory virtualization-virtualization techniques, ballooning, deduplication and
+                                        sharing. Network
+                                        Vishwakarma Institute of Technology, Issue 01 : Rev No. 1 : Dt. 01/07/18 FF-654
+                                        Computer Engineering Syllabus- AY 2022-23 Page 104
+                                        and storage virtualization, Virtual machine migration and replication techniques
+                                        pre-copy and postcopy techniques, applicability to system availability. [6 Hrs]
+                                    </p>
+                                    <p>
+                                        Unit-III Cloud Services
+                                        <br>
+                                        [ CO3] [PO1, PO2, PO3, PO4, PO5, PO7, PO8, PSO4 – Strength - 3,2,2,2,2,3,3,2]
+                                        <br>
+                                        Service Oriented Architecture (SOA), Web services, Web 2.0, Web OS. Introduction
+                                        to IaaS, PaaS,
+                                        SaaS. Cloud Platform and Management, Exploring PaaS with App Engine, Event
+                                        driven programs
+                                        with Cloud Functions, Containerizing and orchestrating apps with Google
+                                        Kubernetes Engine
+                                        Software as a Service (SaaS) Docker flow, orchestration with Docker, dynamic
+                                        linking and legacy
+                                        linking of containers. The GCP Console, understanding projects, Billing in GCP,
+                                        Install and
+                                        configure Cloud SDK, Use Cloud Shell, GCP APIs. [4 Hrs]
+                                    </p>
+                                    <p>
+                                        SECTION-II
+                                        <br>
+                                        Unit-IV Cloud Storage
+                                        <br>
+                                        [ CO4 PO1, PO2, PO3, PO4, PO5, PO6, PO9- Strength 3,2,2,2,3,3,3 ]
+                                        <br>
+                                        Storage options in the cloud, Structured and unstructured storage in the cloud,
+                                        unstructured storage
+                                        using Cloud Storage, SQL managed services, Exploring Cloud SQL, Cloud Spanner as
+                                        a managed
+                                        service, NoSQL managed service options, Cloud Datastore, a NoSQL document store,
+                                        Cloud
+                                        Bigtable as a NoSQL option. OpenStack: NOVA, Neutron, Keystone Cinder, Swift and
+                                        Glances,
+                                        VMware Suit, Apache Cloud Stack [4 Hrs]
+                                    </p>
+                                    <p>Unit-V Service Management
+                                        <br>
+                                        [ CO5 PO1,PO2,PO3,PO4,PO5,PO9,PO11,PSO2-Strength 3,3,1.3,3,1,2,3]
+                                        <br>
+                                        Service Level Agreements (SLAs), Billing and accounting, Billing in GCP Cloud
+                                        Security:
+                                        Introduction to security in the cloud, the shared security model, Encryption
+                                        options, Authentication
+                                        and authorization with Cloud IAM, Identify Best Practices for Authorization
+                                        using Cloud IAM.,
+                                        Introduction to configuration and management tools Ansible, Architecture of
+                                        DevOps. [4 Hrs]
+                                    </p>
+                                    <p>Unit-VI Cloud Network and Security
+                                        <br>
+                                        [ CO6 PO1, PO2, PO3, PO4, PO5, PO10, PO12 - Strength 2,2,1,3,1,3]
+                                        <br>
+                                        Introduction to networking in the cloud, defining a Virtual Private Cloud,
+                                        Public and private IP
+                                        address basics, Google’s network architecture, Routes and firewall rules in the
+                                        cloud, Multiple VPC
+                                        networks, building hybrid clouds using VPNs, interconnecting, and direct
+                                        peering, Different options
+                                        for load balancing. Introduction to security in the cloud, the shared security
+                                        model, Encryption
+                                        options, Authentication and authorization with Cloud IAM, Identify Best
+                                        Practices for Authorization
+                                        using Cloud IAM. [6 Hrs]
+                                    </p>
+                                </div>
+                                <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                                    aria-labelledby="pills-contact-tab">
+                                    <h1>WEB_TECHNOLOGY</h1>
+                                    <p>Unit-I Front End Tools
+                                        <br>
+                                        [CO1 PO1, PO2, PO5 – CO Strength 3,2,2]
+                                        <br>
+                                        Introduction to web technology, internet and www, Web site planning and design
+                                        issues. HTML5:
+                                        structure of html document, HTML elements: headings, paragraphs, line break,
+                                        styles, colors, fonts,
+                                        Vishwakarma Institute of Technology, Issue 01 : Rev No. 1 : Dt. 01/07/18 FF-654
+                                        Computer Engineering Syllabus- AY 2022-23 Page 94
+                                        links, frames, lists, tables, images and forms, CSS, Bootstrap, XML, JSON. [4
+                                        Hrs]
+                                    </p>
+
+                                    <p>Unit-II Client-Side Technologies
+                                        <br>[CO2 PO1, PO2, PO3, PO5, PO12 – CO Strength 3,2,2,1,3]
+                                        <br>
+                                        JavaScript: Overview of JavaScript, Data types, Control Structures, Arrays,
+                                        Functions and Scopes,
+                                        HTML5 forms Validation, Objects in JS, DOM: DOM levels, DOM Objects and their
+                                        properties and
+                                        methods, Manipulating DOM. JQuery: Introduction to JQuery, Loading JQuery,
+                                        selecting elements,
+                                        changing styles, creating elements, appending elements, removing elements,
+                                        handling events. [6
+                                        Hrs]
+                                    </p>
+
+                                    <p>Unit-III Server-Side Technologies
+                                        <br>
+                                        [CO3 PO1, PO2, PO3, PO4, PO6 - CO Strength 2,3,3,2,3]
+                                        <br>
+                                        PHP: Introduction to PHP, Features, sample code, PHP script working, PHP syntax,
+                                        conditions &
+                                        Loops, Functions, String manipulation, Arrays & Functions, Form handling,
+                                        Cookies & Sessions,
+                                        File Handling, Exception Handling, E-mail validations, MySQL with PHP [4 Hrs]
+                                    </p>
+
+                                    <p>SECTION-II
+                                        <br>
+                                        Unit-IV Spring Boot
+                                        <br>[CO4 PO1, PO2, PO3, PO7, PO10, PSO4 – CO Strength 3, 2, 3, 3, 3, 3]
+                                        <br>
+                                        Overview of Spring Boot, Spring Framework, Installing Spring Boot, Build Tool
+                                        Maven/Gradle/Ant, Core Features, Spring Security, Web Applications, JPA for
+                                        database
+                                        connectivity, working with SQL and NoSQL, Messaging, Testing, Deploying Spring
+                                        Boot
+                                        Applications, Monitoring. [6 Hrs]
+                                    </p>
+
+                                    <p> Unit-V React
+                                        <br>[CO5 PO1, PO2, PO4, PO5, PO8, PO11, PSO1, PSO3–CO Strength 3, 3, 2, 3,
+                                        3, 3, 3, 3]
+                                        <br>
+                                        Introduction to React, React component, JSX, Render function, Component API,
+                                        Component
+                                        lifecycle, State, Props, Mixins, Component composition, Pass data from parent to
+                                        child, Pass data
+                                        from child to parent, Component styling, Forms, Events, Refs, Keys, Router,
+                                        Flux. [4 Hrs]
+                                    </p>
+
+
+                                    <p>Unit-VI Node JS
+                                        <br>[CO6 PO1, PO2 PO4 PO9 – CO Strength 3, 2, 2, 3]
+                                        <br>
+                                        Introduction to Node JS, Installation of Node JS, Node JS Modules, Node Package
+                                        Manager (npm),
+                                        Creating Web server, File System, Express JS, Serving Static Resources, Database
+                                        connectivity. [4
+                                        Hrs]
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
