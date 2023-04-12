@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>My Page</title>
+</head>
+<body>
+    <center>
+   <h2>Showing image with a click in JavaScript</h2>
+   <!--button id="show-image-button">Show Image</button-->
+   
+   <img id="img1" src="https://images.pexels.com/photos/577514/pexels-photo-577514.jpeg?cs=srgb&dl=pexels-led-supermarket-577514.jpg&fm=jpg" style="display: block;" width="500" height="500">
+   <img id="img2" src="https://cdn.pixabay.com/photo/2019/09/29/22/06/light-bulb-4514505__340.jpg" style="display: none;" width="700" height="500">
+</center>
+   <script>
+      const img1 = document.getElementById("img1");
+      const img2 = document.getElementById("img2"); 
+      img1.addEventListener("click", () => { 
+         img2.style.display = "block";
+         img1.style.display="none"; 
+      });
+      img2.addEventListener("click", () => { 
+         img1.style.display = "block"; 
+         img2.style.display="none"; 
+      });
+
+
+   </script>
+</body>
+</html>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<script>
+function add()
+{
+  var numOne, numTwo, sum;
+  numOne = parseInt(document.getElementById("first").value);
+  numTwo = parseInt(document.getElementById("second").value);
+  sum = numOne + numTwo;
+  document.getElementById("answer").value = sum;
+}
+function subtract()
+{
+  var numOne, numTwo, subtract;
+  numOne = parseInt(document.getElementById("first").value);
+  numTwo = parseInt(document.getElementById("second").value);
+  subtract = numOne - numTwo;
+  document.getElementById("answer").value = subtract;
+}
+function multiply()
+{
+  var numOne, numTwo, mul;
+  numOne = parseInt(document.getElementById("first").value);
+  numTwo = parseInt(document.getElementById("second").value);
+  mul = numOne * numTwo;
+  document.getElementById("answer").value = mul;
+}
+function divide()
+{
+  var numOne, numTwo, divide;
+  numOne = parseInt(document.getElementById("first").value);
+  numTwo = parseInt(document.getElementById("second").value);
+ divide = parseFloat(numOne / numTwo);
+  document.getElementById("answer").value = divide;
+}
+function myFunction() {
+  document.getElementById("myForm").reset();
+}
+</script>
+</head>
+<body>
+<p>Enter the First Number: <input id="first"></p>
+<p>Enter the Second Number: <input id="second"></p>
+<button onclick="add()">Add</button> <br><br> 
+<button onclick="subtract()">Subtract</button><br><br> 
+<button onclick="multiply()">Multiply</button>
+<br><br> 
+<button onclick="divide()">Divide</button>
+<p>Answer = <input id="answer"></p>
+
+</body>
+</html>

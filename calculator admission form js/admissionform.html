@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<body>
+  <head>
+    <link rel="stylesheet" href="admissionform.css">
+  </head>
+  <div class="container">
+
+    <div class="title">
+      ADMISSION FORM
+      <img src="https://img.collegepravesh.com/2017/05/VIT-Pune-Logo.png" style="width: 70px;">
+      <hr>
+    </div>
+    <form onsubmit="return validation()">
+      <div class="user__details">
+        <div class="input__box">
+          <span class="details">First Name</span>
+          <input type="text" placeholder="E.g: John"  >
+          <span id="fname" style="color: red;"></span>
+        </div>
+        <div class="input__box">
+          <span class="details">Last name</span>
+          <input type="text" placeholder="Smith"  >
+        </div>
+        <div class="input__box">
+          <span class="details">Email</span>
+          <input type="text" id="email" placeholder="johnsmith@hotmail.com"  >
+          <span id="emm" style="color: red;"></span>
+        </div>
+        <div class="input__box">
+          <span class="phone">Phone Number</span>
+          <input type="text" id="phone" name="phone" placeholder="9845612377" >
+          <span id="phn" style="color: red;"></span>
+        </div>
+        <div class="input__box">
+          <span class="details">Address</span>
+          <textarea name="textarea" rows="4" cols="50"
+            placeholder="Borivali (W) -Link Rd, Yogi Nagar, MHB Colony"></textarea>
+         
+        </div>
+        <div class="input__box">
+          <span class="details">State</span>
+          <input type="tel" placeholder="Kerala"  >
+        </div>
+        <div class="input__box">
+          <span class="details">Birth-Date</span>
+          <input type="date" >
+        </div>
+
+        <div class="input__box">
+          <span class="details">Origin Country</span>
+          <select name="country" id="country">
+            <option value="India">India</option>
+            <option value="Israel">Israel</option>
+            <option value="America">America</option>
+            <option value="Britain">Britain</option>
+          </select>
+          </select>
+          <!--input type="password" placeholder="********"  -->
+        </div>
+        <div class="input__box">
+          <span class="details">SSC Percentage</span>
+          <input type="number" min="35" max="100"  >
+        </div>
+        <div class="input__box">
+          <span class="details">HSC/Diploma Percentage</span>
+          <input type="number" min="35" max="100" >
+        </div>
+      </div>
+
+      <div class="input__box">
+        <span class="stream">Stream</span>
+        <select name="stream" id="stream">
+          <option value="Computer Science" >Computer Science</option>
+          <option value="Mechanical">Mechanical</option>
+          <option value="E&TC">E&TC</option>
+          <option value="AI-DS">AI-DS</option>
+        </select>
+        <!--input type="password" placeholder="********"  -->
+      </div>
+      
+      <br>
+      <div class="gender__details">
+        <input type="radio" name="gender" id="dot-1">
+        <input type="radio" name="gender" id="dot-2">
+        <input type="radio" name="gender" id="dot-3">
+        <span class="gender__title">Gender</span>
+        <div class="category">
+          <label for="dot-1">
+            <span class="dot one"></span>
+            <span>Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span>Female</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span>Prefer not to say</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="language">
+        <span class="details">Languages Known</span><br>
+        <div class="language_main">
+          &nbsp;&nbsp;
+          <input type="checkbox" value=" English">
+          <label for="l1"> English</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="checkbox" value=" Hindi">
+          <label for="l2"> Hindi</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="checkbox" value=" Marathi">
+          <label for="l3"> Marathi</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="checkbox" value=" German">
+          <label for="l4"> German</label>
+        </div>
+      </div>
+
+      <div class="button">
+        <input type="submit" id="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
