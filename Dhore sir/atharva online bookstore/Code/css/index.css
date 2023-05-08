@@ -1,0 +1,50 @@
+* {
+  font-family: 'Ubuntu';
+}
+
+#brandImage{
+  margin-left: 2%;
+  width: 50px;
+}
+
+#appHeader {
+  font-size: xx-large;
+  color: coral;
+  margin-left: 3%;
+}
+
+.nav-item {
+  font-size: large;
+  margin-left: 30%;
+}
+
+.featureSection {
+  color: black;
+}
+
+.promotionSection {
+  display: block;
+  padding: 3%;
+  margin: auto;
+  font-weight: bolder;
+  font-size: x-large;
+  text-align: center;
+}
+
+.footerSection {
+  background-color: rgb(35, 35, 35);
+  color: antiquewhite;
+  font-size: larger;
+  text-align: center;
+}
+
+@media (max-width: 1028px) {
+  #appHeader {
+    text-align: center;
+  }
+    
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+} 

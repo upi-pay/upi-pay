@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+
+    <!-- Google Ubuntu Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/index.css"> 
+
+</head>
+
+<body>
+
+    <!-- Top Section -->
+    <section class="topSection">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <figure id="brandImage">
+                <img src="images/book-stack.png" alt="Failed to load Image">
+            </figure>
+            <a class="navbar-brand" href="#" id="appHeader">Hooked For Books</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#appNavBar" aria-controls="appNavBar" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="appNavBar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="signup.html">Signup</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </section>
+
+    <!-- Feature Section -->
+    <section class="featureSection text-center">
+        <div class="promotionSection">
+            <span>Get Your Favorite Books Now !</span>
+            <figure>
+                <img src="images/book-shop.png" alt="Failed to load image">
+            </figure>
+        </div>
+            <div id="bookContent"></div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footerSection">
+        <footer>
+            <div class="container-fluid">
+                <span>© Copyright 2023-24 Atharv Natu - Hooked For Books</span>
+            </div>
+        </footer>
+    </section>
+
+    <script type="text/javascript">
+
+        $(document).ready(function() {
+
+            $("#bookContent").append("<span><br>In recent years online bookstores have become a major hit and many people are now shopping books online. One of the major reasons behind this shift in trend is because of the advantages it comes over a conventional bookstore. They are several advantages that come with purchasing books online some which include;</span><br>");
+            $("#bookContent").append("<span><br>You save money, energy and time when you shop for your favorite book online. These online bookstores offer discount coupons which help customers save money on their purchases. Shopping for books online is economical too because of the low shipping price.</span><br>");
+            $("#bookContent").append("<span><br>YWhen you shop online, you save a lot of time which you would have wasted wandering from one store to another if you were to shop at the conventional bookstore. Beside from that, there is no fixed time for online shopping. You can shop anytime. This is a huge plus to the homebound people or in a situation where the weather is hostile outside.</span><br>");
+        });
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+* {
+    font-family: 'Ubuntu';
+}
+
+body {
+    background-color: rgb(35, 35, 35);
+}
+
+#header {
+    font-size: 2rem;
+    background-color: coral;
+    color: blanchedalmond;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.bookContainer {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.footerSection {
+    background-color: rgb(35, 35, 35);
+    color: antiquewhite;
+    font-size: larger;
+    padding: 5%;
+    text-align: center;
+}
+
